@@ -28,7 +28,7 @@ worksheet1 = sheet.worksheet('Sheet1')
 sheet_url = "https://docs.google.com/spreadsheets/d/1S_7EnNm3_kkF0og9Iecu0jZJ8oo60PlPHuzn0USlylg/edit#gid=0"
 url_1 = sheet_url.replace('/edit#gid=', '/export?format=csv&gid=')
 
-df = pd.read_csv(url_1, header=0)
+df = pd.read_csv(url_1, header=0, error_bad_lines=False)
 #df["ID SLS"] = df["ID SLS"].astype(str)
 hari = date.today()
 
@@ -80,5 +80,3 @@ if __name__ == "__main__":
                             worksheet1.append_row([datetime.datetime.now(tz=tzInfo).isoformat(), FirstFilter, SecondFilter, ThirdFilter, ForthFilter, JumlahL2])
                             time.sleep(3)
                             streamlit_js_eval(js_expressions="parent.window.location.reload()")
-
-        
