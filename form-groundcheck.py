@@ -74,7 +74,7 @@ if __name__ == "__main__":
                 SudahSelesai = st.selectbox("Apakah Sudah Selesai Groundcheck6 ", ["PILIH", "Sudah", "Belum"], 0)
 
 
-                if ((SudahSelesai == "Sudah") & (len(JumlahL2) != 0)):
+                if ((SudahSelesai == "Sudah") and (len(JumlahL2) != 0)):
                     if st.button('Submit'):
                         st.success(f'Data berhasil tersubmit', icon="✅")
                         worksheet1.append_row([datetime.datetime.now(tz=tzInfo).isoformat(), FirstFilter, SecondFilter, ThirdFilter, JumlahL2])
