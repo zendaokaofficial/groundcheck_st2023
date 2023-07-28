@@ -77,6 +77,6 @@ if __name__ == "__main__":
                 if (SudahSelesai == "Sudah"):
                     if st.button('Submit'):
                         st.success(f'Data berhasil tersubmit', icon="✅")
-                        worksheet1.append_row([datetime.datetime.now(tz=tzInfo).isoformat(), FirstFilter, SecondFilter, ThirdFilter, ForthFilter, JumlahL2])
+                        worksheet1.append_row([datetime.datetime.now(tz=tzInfo).isoformat(), FirstFilter, SecondFilter, ThirdFilter, JumlahL2])
                         time.sleep(3)
                         streamlit_js_eval(js_expressions="parent.window.location.reload()")
