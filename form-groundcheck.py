@@ -36,7 +36,8 @@ hari = date.today()
 if __name__ == "__main__":
          
     st.set_page_config(
-        page_title="📋 Form Groundcheck",
+        page_title="Form Groundcheck",
+        page_icon="📋"
     )
     st.markdown("<h1 style='text-align: center; color: green;'>Form Pelaporan Groundcheck</h1>", unsafe_allow_html=True)
     #st.subheader(f"Tanggal: {hari}")
@@ -67,22 +68,14 @@ if __name__ == "__main__":
 
             if ThirdFilter != "PILIH SLS":
 
-                df4 = df3[df3["Nama SLS"] == ThirdFilter]
-                lstPPL = list(df4["Nama PPL"].unique())
-                lstPPL.insert(0, "PILIH PPL")
+                JumlahL2 = st.text_input('Jumlah L2 yang didata hasil Groundcheck', )
 
-                ForthFilter = st.selectbox("Nama PPL", lstPPL, 0)
-
-                if ForthFilter != "PILIH PPL":
-
-                    JumlahL2 = st.text_input('Jumlah L2 yang didata hasil Groundcheck', )
-
-                    SudahSelesai = st.selectbox("Apakah Sudah Selesai Groundcheck6 ", ["PILIH", "Sudah", "Belum"], 0)
+                SudahSelesai = st.selectbox("Apakah Sudah Selesai Groundcheck6 ", ["PILIH", "Sudah", "Belum"], 0)
 
 
-                    if (SudahSelesai == "Sudah"):
-                        if st.button('Submit'):
-                            st.success(f'Data berhasil tersubmit', icon="✅")
-                            worksheet1.append_row([datetime.datetime.now(tz=tzInfo).isoformat(), FirstFilter, SecondFilter, ThirdFilter, ForthFilter, JumlahL2])
-                            time.sleep(3)
-                            streamlit_js_eval(js_expressions="parent.window.location.reload()")
+                if (SudahSelesai == "Sudah"):
+                    if st.button('Submit'):
+                        st.success(f'Data berhasil tersubmit', icon="✅")
+                        worksheet1.append_row([datetime.datetime.now(tz=tzInfo).isoformat(), FirstFilter, SecondFilter, ThirdFilter, ForthFilter, JumlahL2])
+                        time.sleep(3)
+                        streamlit_js_eval(js_expressions="parent.window.location.reload()")
