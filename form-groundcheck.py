@@ -32,13 +32,14 @@ df = pd.read_csv(url_1, header=0, on_bad_lines='skip')
 #df["ID SLS"] = df["ID SLS"].astype(str)
 hari = date.today()
 
+         
+st.set_page_config(
+         page_title="Form Groundcheck",
+         page_icon="📋"
+)
 
 if __name__ == "__main__":
-         
-    st.set_page_config(
-        page_title="Form Groundcheck",
-        page_icon="📋"
-    )
+
     st.markdown("<h1 style='text-align: center; color: green;'>Form Pelaporan Groundcheck</h1>", unsafe_allow_html=True)
     #st.subheader(f"Tanggal: {hari}")
     #st.dataframe(df)
