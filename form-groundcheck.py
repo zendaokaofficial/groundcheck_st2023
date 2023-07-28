@@ -33,7 +33,6 @@ df = pd.read_csv(url_1, header=0, on_bad_lines='skip')
 hari = date.today()
 
 if __name__ == "__main__":
-    st.title("🌱 Form Groundcheck")
     st.markdown("<h1 style='text-align: center; color: green;'>Form Pelaporan Groundcheck</h1>", unsafe_allow_html=True)
     #st.subheader(f"Tanggal: {hari}")
     #st.dataframe(df)
