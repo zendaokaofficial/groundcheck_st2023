@@ -1,0 +1,5 @@
+streamlit_js_eval
+gspread == 4.0.1
+gsheetsdb
+oauth2client
+streamlit_extras
