@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "st2023-tabanan",
+  "private_key_id": "bd680f2e25f6c954138c2ffd0c0a728ab459e3fb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCi3MD2+RJ/gbFZ\nssnhanQ9XEu00AVh5tGjK9bEm34W7AUM88AoAGHVtCsGGNfLfUUI8cg+/9Yh1Rci\nzv9IQTA6whFVwz7MNbzrs8i+q5i+D+NXEwNg80zL11Q68YO3UFnUGLkPig6XDs9M\nAskrDN/CtGg3cNvXDl5+3cAhpynhduukE89bEGKLicAW4AfthLWbp5BzzNSxNAcU\njWGqf8wmqrJZVqgZhePSVvLSFGMLKAo1Rcb7M1mmVzwjDP9+EAkffc/vUDmgTFQ/\ng3uoKK4RUqa9X9n36dHP21pvSSLpgNwuRJyVikFl1SgJ9w9Hl0aJyAOh8PclEXFa\nMYdpxLVLAgMBAAECggEAOiM50zA4tUGz8MRNIuXgluLyt5omwbsnDOuiYE7tpPse\nFnCRIPZ59lK5pRSLPD38veOpyyuC4lLyTl+8a6uxrtgGXiozqaxpQ27Lc51IClkb\nm8LSyvIvcPjuPZhnn7HUT02ACpcK/EuyHn1EGNUgr529MkVchRnBC+LXKmxFHBHI\n2X0jNMwXiuA3lcxNJXlP09oQjlkei/0CdoD4bmGDTrIrDJ03VyBSGCOtj6Cjug32\nLTyhoag9hFrBjfh6qGUlPKFkO5HUEoKVo8bMQAISXvPgYHvuIjb//1WUi25CgnRs\n6e/Qh6u+ZrfeqtVj6A6Q1c8lNox1EBRuDbkAff+DcQKBgQDRp7ot0OqyL6ci7vt6\nhbhTfBxkL6UwZcgXl1MbiM2BPKolPYWp7CZbdRIMQWk/8nK7vnnwdx5Yu6ZJ2skZ\niRFsK9GUAYb4iq8GTx29nz2gVgXtoh0X4KRmEy59XBo+xnJiJPo6Cy0ZU9dO8URS\nHFxarBpF7yuRnWVgCpjpghT+0wKBgQDG3QsyzVpUYGVqZLOYn74OZnljCjfC4LRF\ngKt2xzalTAJOBwidOQ1zU+pxNA9SpSMJE08d3m+NCj8UZKC6RqC6+wTvgb04rUgJ\n7WqRU2wVZCED3JyOfARz7eY270huf0UQmeuxvK98t2rf/lZJ3N2dokLVG5IzaxiK\nDISZwgAUqQKBgCJcX/okVGLRxo3GJzckdVpRbAHLgUJWXB3psjhACpZUz/n8hEye\nJIc2v7d8fPh7DuzQQgH0M+gNESrnja/+s/lLkTS1r15KtHbPPquWTq5Ziu0wdZ41\nNhx4plTrZG3HbnXBY7VhoYmWISKSDkV62nQN4tx1X2mlJzk/Y2JZ7ID7AoGAMlWI\nnBc2Id00TjWm756fMG3nk5Xmf0D44A6tV6ccwcH3Y2CMYZ8rNGGtGXIf3r9Fmup0\nQA8pFP3e8X524C84R5t5qFWiW1IgxcJ+EsKWvONXJ+8TAU2Kov04I/d00eMMzCLp\ncVdc46hZONDbbl6lCV0kpWQRIUqeL3LzrSdZdeECgYAPO/EofaO6Dq2OdzfWCIwT\nfJJAGFgc5vN+4nVd/XYPf29uq9ZFmmJA06XzqojzIeXXfA0Nmnsb6+IN2fPzafVX\nq6hDmwYJ6mJiuf+K8eD7F/bzOn53Bv7GZfYB6ahGEm67FIg15b0cGl4jLhpBYlVP\nRLlWAC1PbwcixF1XDo2rWQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "groundcheck-st2023@st2023-tabanan.iam.gserviceaccount.com",
+  "client_id": "106214915078886625264",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/groundcheck-st2023%40st2023-tabanan.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
